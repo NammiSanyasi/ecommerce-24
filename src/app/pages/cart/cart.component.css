@@ -1,0 +1,34 @@
+.items {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item h3 {
+    margin: 0 15px;
+    flex-grow: 1;
+    font-size: 1.2em;
+}
+
+.item img {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.item button {
+    font-size: 1.2em;
+}
+
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+}

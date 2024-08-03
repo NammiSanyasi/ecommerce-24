@@ -1,0 +1,29 @@
+/* Styling for the header */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem; /* Adjust the size as needed */
+    color: #333; /* Dark gray color */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1px; /* Adds a bit of spacing between letters */
+}
+
+/* Styling for the button */
+button {
+    display: block; /* Makes the button block-level to center it */
+    margin: 0 auto; /* Centers the button */
+    padding: 10px 20px; /* Adds space inside the button */
+    font-size: 1.2rem; /* Adjust the size as needed */
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Bootstrap primary blue color */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Adds a smooth transition effect */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3; /* Darkens the blue color on hover */
+}
